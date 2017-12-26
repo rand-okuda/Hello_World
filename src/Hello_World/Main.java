@@ -16,13 +16,13 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+        String wt = WhatsTime();
+        System.out.println("---");
+        System.out.println(wt);
         System.out.println("---");
         System.out.println(args);
         System.out.println("---");
         System.out.println(" Hello, World");
-        System.out.println("---");
-        String wt = WhatsTime();
-        System.out.println(wt);
 
 	}
 
