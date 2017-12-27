@@ -22,16 +22,8 @@ public class ChangeNumTest2 extends TestCase {
     @Test
     // 04. テストメソッドの宣言
     public void testChangeNum () {
-        // 05. 変換前の文字列（引数）
-        String ts1 = "100";
-        // 06. 変換後の文字列（Assert用）
-        int tn1 = 100;
-        // 07. オブジェクトの生成
-        ChangeNum tcn1 = new ChangeNum();
-        // 08. ChangeNumメソッドを呼出
-        int test1 = tcn1.ChangeNum(ts1);
-        // 09. Assert確認実行
-        assertEquals(tn1, test1);
+        // 10. main実行
+        ChangeNum.main(new String[]{"999"});
 
     }
 

@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package Hello_World;
 
@@ -12,7 +12,7 @@ import org.junit.runners.Suite.SuiteClasses;
  *
  */
 @RunWith(Suite.class)
-@SuiteClasses({ ChangeNumTest.class, ChangeNumTest2.class })
+@SuiteClasses({ ChangeNumTest.class, ChangeNumTest2.class, ChangeNumTest3.class })
 public class AllTests {
 
 }
