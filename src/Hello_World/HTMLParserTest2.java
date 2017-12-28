@@ -31,7 +31,7 @@ public class HTMLParserTest2 {
         HTMLParser.main(new String[]{htmlString});
         // 改行コード取得
         String lineCd = System.getProperty("line.separator");
-        // 期待される文字列の配列
+        // 期待される文字列
         String expectedString = new String();
         expectedString += "タグ:[html], 属性:[], テキスト:[]" + lineCd;
         expectedString += "タグ:[head], 属性:[], テキスト:[]" + lineCd;
@@ -46,7 +46,7 @@ public class HTMLParserTest2 {
         expectedString += "タグ:[/a], 属性:[], テキスト:[]" + lineCd;
         expectedString += "タグ:[/body], 属性:[], テキスト:[]" + lineCd;
         expectedString += "タグ:[/html], 属性:[], テキスト:[]" + lineCd;
-        // 実際の出力文字列の配列
+        // 実際の出力文字列
         String actualString = out.toString();
         // Assert確認実行
         assertEquals(expectedString, actualString);
